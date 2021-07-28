@@ -43,6 +43,12 @@ has to move the colored balls around the game board, gathering them
 into the lines of the same color by five. Once the line is complete it
 is removed from the board, therefore freeing precious space.
 
+%description -l pl.UTF-8
+KLines jest prostą albo bardzo wciągającą grą dla jednej osoby. Gracz
+ma przemieszczać kolorowe piłki po planszy, zbierając je po pięć
+w linii jednego koloru. Kompletne linie są usuwane z planszy
+zwalniając cenne miejsce.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
